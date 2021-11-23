@@ -2,12 +2,50 @@
     header .container{
         display: flex;
         flex-direction: column;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    header h2{
+        margin-bottom: 20px;
+        align-content: center;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+    }
+
+    .principal-movie{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .principal-movie .titulo{
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+        width: fit-content;
+    }
+
+    .descricao{
+        display: flex;
+        font-size: smaller;
+        width: fit-content;
+    }
+
+    .botoes{
+        max-width: 40%;
     }
 
     .btn{
         margin-top: 5px;
         width: 200px;
+        display: flex;
+        flex-direction: row;
     }
+
 }
 
 @media screen and (min-width:1000px) {
