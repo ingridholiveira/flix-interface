@@ -71,14 +71,15 @@ header nav i{
    margin: 30px;
    margin-left: 10px;
    line-height: 40px;
-   color: var(--amarelo);
+   color: var(--branco);
 }
 
 .principal-movie .titulo{
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 10px;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: var(--amarelo);
 }
 
 .btn{
